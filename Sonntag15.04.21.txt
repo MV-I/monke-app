@@ -1,0 +1,52 @@
+Sonntag 15.04. 
+
+schlechter css stil: 
+boxen nicht nötig für Layout. ?? 
+in gr Firmen entwickelt man eigene css library oder bootstrap damit es z.b. wie microsoft aussieht
+
+{
+flui-ui 
+material.io 
+bootstrap.build/app
+}
+
+less/ Sas ansonsten nur native css
+
+request ist aufbebaut aus:
+Methode - 	hat nicht immer body
+Head 		get, delete und options haben keinen body
+Body -> 204  	post put patch haben body
+
+man kann auch alles put machen ... 
+GraphQL/ REST 
+
+requests kommen aus HTTP2.0
+
+postman (zum bearbeiten? API?)
+
+
+GET darf nie status/DB ändern - , DELETE ändert in DB oder 404 --> auf gleichem levl , post erstellt selbst wenn dasgleiche
+put überschreibt gesamtes objekt + patch kleiner hässlicher Bruder (nur eine property wird geupdated z.B name) 
+
+options ist zum erfahren von options
+
+CRUD = create, read, update, delete = 4 haupt
+
+_________________________________________
+
+GetAll haben wir mit URL gemacht 
+GetbyID --> URL + id
+
+sind auch gleich REST full API 
+
+
+Delete = 204 ... da kein content
+
+400er Fehler nur wenn User Fehler macht...auch wenn z.B. Pokemon icht existieren... bei GETAll request trotzdem 200 für OK
+
+
+
+HA: 
+<
+Front End Applikation um Animal bzw Liste zu bekommen und neues hinzufügen kann
+put und get noch nicht 

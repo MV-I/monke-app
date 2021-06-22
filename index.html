@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Animal Yeeter</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <div id="background">
+
+            <div id="mid-container">
+                <h1>Monkey List</h1>
+                <h6>ONLY THE BEST MONKEYS IN THE MARKET</h6>
+                <hr>
+                <p>There are many different things that come to mind when we think about Monkeys. They are often seen as being cute and highly intelligent animals. They are known for being good care givers to the young and even having some humanistic movements.<br>
+                    <br>
+                    There are 264 known species of Monkeys in the world. They are often included with Apes but they are very different. The main difference is that the Apes don’t have a tail.<br>
+                    <br>
+                    There are two categories – the New World and the Old World Monkeys. It is believed that they split through evolution approximately 40 million years ago.<br>
+                    <br>
+                    This is a list of monkeys. You can add to it by giving your monkey a name and clicking the "Add to list" button.</p>
+                <div id="list-send-container">
+                    <div id="list-container">
+                        <button type="button" id="submit-button" onclick="loadPokemon()">Show list</button>
+                        <ol id="animal">
+                            <!--li elements from js come here-->   
+                        </ol>
+                    </div>
+                    <div id="send-container">
+                        <img src="pictures/monkey.png" alt="a picture of a monkey (Harambe)" id="monkey-pic">
+                        <div id="send-box">
+                            <input type="text" placeholder="munkii" id="test">
+                            <button id="yeet-monkey" onclick="postMonkey()">Add to list</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

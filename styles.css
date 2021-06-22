@@ -1,0 +1,75 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    background-image: url(pictures/background.jpeg);
+    color: cornsilk;
+}
+
+#mid-container {
+    background-color: rgba(119, 112, 144, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+    height: 100vh;
+    margin: -8px;
+    padding: 0px;
+}
+
+#mid-container hr {
+    width: 90%;
+}
+#send-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+#list-send-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#list-send-container button {
+    margin: 1rem;
+
+}
+
+#send-box {
+    margin-top: 1rem;
+}
+
+p {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+#monkey-pic {
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border-color: black;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 5rem;
+}
+h6 {
+    margin-top: 0px;
+    font-size: 1.3rem;
+}
